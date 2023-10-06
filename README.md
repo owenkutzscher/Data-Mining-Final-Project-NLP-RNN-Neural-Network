@@ -24,19 +24,19 @@ Overall this data set has been used by many people to test classification method
 
 ## Proposed Work
 Below is a step by step process we will (mostly) utilize: 
-Data Processing 
-Tokenize
-Analyze Reviews Length
-Removing Outliers — Getting rid of extremely long or short reviews
-Padding / Truncating the remaining data
-Training, Validation, Test Dataset Split
-Dataloaders and Batching
-Define the LSTM Network Architecture
-Define the Model Class
-Training the Network
-Testing (on Test data and User- generated data)
-This process was one we found online, and it is designed for recurrent neural networks that are implemented using a long short term memory architecture.
-Source: https://towardsdatascience.com/sentiment-analysis-using-lstm-step-by-step-50d074f09948
+- Data Processing 
+- Tokenize
+- Analyze Reviews Length
+- Removing Outliers — Getting rid of extremely long or short reviews
+- Padding / Truncating the remaining data
+- Training, Validation, Test Dataset Split
+- Dataloaders and Batching
+- Define the LSTM Network Architecture
+- Define the Model Class
+- Training the Network
+- Testing (on Test data and User- generated data)
+- This process was one we found online, and it is designed for recurrent neural networks that are implemented using a long short term memory architecture.
+- Source: https://towardsdatascience.com/sentiment-analysis-using-lstm-step-by-step-50d074f09948
 
 ## Evaluation
 We can evaluate our model’s accuracy in a few different ways. Firstly, we can test sentiment analysis fairly easily by hand, if we were to manually enter in reviews that correlate to an obvious negative or positive sentiment, and see what our model returns. We can also compare the results of our model to results from already existing models that do sentiment analysis. 
@@ -47,12 +47,12 @@ There are a few ways we could measure success in our case. We need to do more re
 ## Milestones
 These dates signify the times that we would like to have the following tasks completed by. We realize these dates are tentative since there may be unexpected changes or hindrances to our project. 
 
-10/1: Start exploring our data, and make sure that it is a viable source to base our model off of
-10/22: Finish research on RNN models, and clean our data, including analyzing the reviews, removing outliers, etc. Start working on progress report
-10/31: Progress report due
-11/7: Define the LSTM network architecture, define the model class
-11/15: Train the network 
-11/22: Start/continue testing 
-12/1: Have a tentative final report and presentation 
-12/7: Final report and presentation due
+* 10/1: Start exploring our data, and make sure that it is a viable source to base our model off of
+* 10/22: Finish research on RNN models, and clean our data, including analyzing the reviews, removing outliers, etc. Start working on progress report
+* 10/31: Progress report due
+* 11/7: Define the LSTM network architecture, define the model class
+* 11/15: Train the network 
+* 11/22: Start/continue testing 
+* 12/1: Have a tentative final report and presentation 
+* 12/7: Final report and presentation due
 
